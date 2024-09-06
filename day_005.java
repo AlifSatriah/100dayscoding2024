@@ -12,9 +12,9 @@ public class Main {
         // tidak ada baris baru 
         System.out.print("anak informatika ");
         
-        //menggunakan printf untuk mencetak teks dengan format tertentu
-        //%s digunakan untuk mencetak string %d digunakan untuk mencetak integer
-        //%n digunakan untuk mencetak baris baru, tergantung pada sistem operasi
+        /* menggunakan printf untuk mencetak teks dengan format tertentu
+        %s digunakan untuk mencetak string %d digunakan untuk mencetak integer
+        %n digunakan untuk mencetak baris baru, tergantung pada sistem operasi */
         int angka = 30;
         String nama = "alif";
         System.out.printf(" nama:%s,angka : %d%n", nama,angka);
