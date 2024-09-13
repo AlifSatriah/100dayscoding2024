@@ -5,13 +5,15 @@ public class Day12 {
 
     
     public static void main(String[] args) {
-        //baris pertama (Bilangan Ganjil)
-        int apel = 7;
-        int jeruk = 5;
-        int mangga = 9;
-        int pisang = 1;
-        int anggur = 3;
-        int semangka = 27;
+        //baris pertama (Bilangan Ganjil)- deklarasi variabel
+        int apel, jeruk, mangga, pisang, anggur, semangka;
+        //inisialisasi variabel
+        apel = 7;
+        jeruk = 5;
+        mangga = 9;
+        pisang = 1;
+        anggur = 3;
+        semangka = 27;
         System.out.printf("Bilangan Ganjil = %d, %d, %d, %d, %d, %d\n ", apel, jeruk, mangga, pisang, anggur, semangka);
         
         //baris kedua (Bilangan Genap)
