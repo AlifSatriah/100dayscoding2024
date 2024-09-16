@@ -39,7 +39,7 @@ public class Day15 {
         System.out.println(String.format("var13: %.7f", var13));
         System.out.println(String.format("var14: %.7f", var14));
         
-        double pi = 3.14;
+        double pi = 22/7;
         System.out.println(String.format("2 angka dibelakang koma = %.2f", pi));
         System.out.println(String.format("3 angka dibelakang koma = %.3f", pi));
         System.out.println(String.format("4 angka dibelakang koma = %.4f", pi));
