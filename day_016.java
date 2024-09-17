@@ -34,7 +34,7 @@ public class Day16 {
          B1 = B3; // B1 = 12.0
          B3 = B4; // B2 = 4.0
          B4 = B2; // B3 = 16.0
-         B2 = B1; // B4 = 8.0
+         B2 = c; // B4 = 8.0
          System.out.println(String.format("setelah penukaran B: B1 = %.2f, B2 = %.2f, B3 = %.2f, B4 = %.2f", B1, B2, B3, B4));
         
         
