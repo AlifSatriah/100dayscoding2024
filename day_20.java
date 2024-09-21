@@ -6,11 +6,12 @@ public class Day20 {
     
     public static void main(String[] args) {
        //deklarasi variabel menggunakan tipe data byte
-       byte ali = 20;
-       byte budi = 15;
-       byte cici = 18;
-       byte dedi = 22;
-       byte evi = 17;
+       Byte ali = Byte.valueOf((byte) 20);
+       Byte dimas = Byte.valueOf((byte)15);
+       Byte budi = Byte.valueOf((byte)18);
+       Byte cici = Byte.valueOf((byte)22);
+       byte dedi = Byte.valueOf((byte)22);
+       byte evi = Byte.valueOf((byte)17);
        
        //menampilkan jumlah kelereng sebelum pertukaran
         System.out.printf("sebelum pertukaran: \n");
@@ -31,10 +32,10 @@ public class Day20 {
         dedi = temp;
         
         // menambahkan jumlah kelereng
-        ali += 5; //ali mendapat tambahan 5 kelereng
-        budi += 3; //budi mendapat tambahan 3 kelereng
-        cici += 2; //cici mendapat tambahan 2 kelereng
-        dedi += 4; //dedi mendapat tambahan 4 kelereng
+        ali = Byte.valueOf((byte)(ali + 5)); //ali mendapat tambahan 5 kelereng
+        budi = Byte.valueOf((byte)(ali + 3)); //budi mendapat tambahan 3 kelereng
+        cici = Byte.valueOf((byte)(cici + 2)); //cici mendapat tambahan 2 kelereng
+        dedi = Byte.valueOf((byte)(dedi + 4)); //dedi mendapat tambahan 4 kelereng
         //evi tidak menambah kelereng
         
         //menampilkan jumlah kelereng setetlah  pertukaran dan penambahan
@@ -51,3 +52,7 @@ public class Day20 {
     }
     
 }
+
+        
+               
+ 
