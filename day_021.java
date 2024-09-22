@@ -6,11 +6,11 @@ public class Day21 {
     
     public static void main(String[] args) {
         //deklarasi jumlah kelereng dengan tipe data short
-        short ali = 20;
-        short budi = 15;
-        short cici = 18;
-        short dedi = 22;
-        short evi = 17;
+        Short ali = 20;
+        Short budi = 15;
+        Short cici = 18;
+        Short dedi = 22;
+        Short evi = 17;
         
         //output jumlah kelereng sebelum pertukaran menggunakan printf
         System.out.println("jumlah kelereng sebeleum pertukaran");
@@ -21,7 +21,7 @@ public class Day21 {
         System.out.printf("evi: %d\n", evi);
         
         //proses pertukaan kelereng (ali dengan budi, cici dan dedi)
-        short temp = ali;
+        Short temp = ali;
         ali = budi;
         budi = temp;
         
@@ -47,3 +47,5 @@ public class Day21 {
     }
     
 }
+
+       
