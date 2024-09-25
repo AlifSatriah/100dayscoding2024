@@ -17,7 +17,7 @@ public class Day24 {
         System.out.println("nilai float1 = " + 1);
         System.out.println("nilai float2 = " + 2);
         System.out.println("nilai float3 = " + 3);
-        System.out.println("nilai f;oat4 = " + 4);
+        System.out.println("nilai float4 = " + 4);
         System.out.println("nilai float5 = " + 5);
         
         //operasi penjumlahan
